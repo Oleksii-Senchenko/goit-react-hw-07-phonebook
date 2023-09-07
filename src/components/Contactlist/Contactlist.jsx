@@ -7,7 +7,6 @@ import { getContactsState } from 'redux/contactsSlice';
 function Contactlist() {
   const contacts = useSelector(getContactsState);
   const filter = useSelector(getStateFilter);
-
   const filteredContacts = contacts.filter(
     contact =>
       contact.name && contact.name.toLowerCase().includes(filter.toLowerCase())
