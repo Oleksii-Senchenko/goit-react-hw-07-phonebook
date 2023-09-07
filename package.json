@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-"homepage": "https://Oleksii-Senchenko.github.io/goit-react-hw-07-phonebook/",
+  "homepage": "https://Oleksii-Senchenko.github.io/goit-react-hw-07-phonebook/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@reduxjs/toolkit": "^1.9.5",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-manifest-plugin": "^5.0.0"
   }
 }
